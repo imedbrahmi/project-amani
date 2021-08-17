@@ -1,0 +1,50 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:url('http://www.cuisinedaubery.com/wp-content/uploads/2019/07/moelleux-pistache-A2.jpg');
+    background-size: cover;
+}
+.registerTitle{
+    font-size: 50px;
+    color: rgba(13, 238, 200, 0.623);
+}
+.registerForm{
+    margin-top:20px; 
+    display: flex;
+    flex-direction: column;
+    color: rgba(13, 238, 200, 0.623);
+}
+.registerForm > label{
+    margin: 10px 0;
+
+} 
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius:  10px; ;
+
+}
+.registerButton{
+margin-top: 20px;
+padding: 10px;
+cursor: pointer;
+background-color: rgba(28, 180, 155, 0.623);
+border: none;
+color: white;
+border-radius:10px ;
+}
+.registerLoginButton{
+    position:absolute;
+    top: 60px;
+    right: 20px;
+    background-color:tomato;
+    cursor: pointer;
+    border: none;
+    border-radius:  10px; ;
+    padding: 10px;
+    color: white;
+}
